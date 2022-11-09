@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+echo "Enter file Name:"
+read fn
+if test -a $fn
+then
+echo "yes, file exists"
+else
+echo "file does not exist"
