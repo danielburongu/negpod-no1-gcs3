@@ -7,5 +7,4 @@ elif month in ['April', 'June', 'September', 'November']:
     print("The month of {} has 30 days". format(month))
 else:
     month in ['January', 'March', 'July', 'August', 'October', 'December']
-
-print("The month of {} has 31 days". format(month))
+    print("The month of {} has 31 days". format(month))
