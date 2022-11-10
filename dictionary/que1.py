@@ -10,8 +10,8 @@ class py_solution:
                 int_value += rom_value[s[i]]
         return int_value
 
-print(py_solution().roman_to_int('III'))
-print(py_solution().roman_to_int('LVIII'))
-print(py_solution().roman_to_int('MCMXCIV'))
-print(py_solution().roman_to_int('XCIX'))
-print(py_solution().roman_to_int('MDCCCL'))
+print(py_solution().roman_to_integer('III'))
+print(py_solution().roman_to_integer('LVIII'))
+print(py_solution().roman_to_integer('MCMXCIV'))
+print(py_solution().roman_to_integer('XCIX'))
+print(py_solution().roman_to_integer('MDCCCL'))
