@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 letters = input("Type any word: ").lower()
-vowles = ["a", "e", "i", "o", "u", "y"]
+vowels = ["a", "e", "i", "o", "u", "y"]
 
 i = 0
 while i < len(letters):
