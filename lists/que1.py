@@ -1,6 +1,17 @@
 #!/usr/bin/python3
-def add_target(nums, target):
-    for i in range(len(nums)):
-        for v in range(i + 1, len(nums)):
-            if nums[i] + nums[v] == target:
-                return[i, v]
+nums = [4,5,7,9]
+
+target = 12
+
+def twoSum(nums, target):
+    prevMap = {}
+    for index, num in enumerate(nums):
+        diff = target - num
+        if diff in prevMap:
+            return [prevMap[diff], index]
+        prevMap[num] = index
+    return
+
+
+result = twoSum(nums, target)
+print(result)
